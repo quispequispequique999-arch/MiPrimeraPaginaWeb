@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tengo algo muy importante que decirte... ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <button id="musicToggle" class="music-btn">🎵 Música: OFF</button>
+  
+  <audio id="bgMusic" loop src="musica.mp3"></audio>
+
+  <div class="card">
+    <div class="progress-bar">
+      <div class="progress" id="progressBar"></div>
+    </div>
+
+    <div class="img-container">
+      <video id="mainVideo" autoplay loop muted playsinline>
+        <source id="videoSource" src="Reik_-_Tu_Mirada(1080p).mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+      </video>
+    </div>
+
+    <h1 id="titulo">Hola... tengo una duda 🤔</h1>
+    <p id="subtitulo">Responde con total sinceridad para continuar...</p>
+
+    <div class="btn-container">
+      <button id="btnSi">Continuar ✨</button>
+      <button id="btnNo">No quiero 🙈</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
